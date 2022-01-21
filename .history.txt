@@ -1,1 +1,1 @@
-Hi!! Im trying to use the vim console and hyper console to create directories. Fuck you!
+Hi!! Im trying to use the vim console and hyper console to create directories. Fuck you! I have open this file with vim nameFile.extension... I use i to insert text and esc and :x or :wq to save and exit :)
