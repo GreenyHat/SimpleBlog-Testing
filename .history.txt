@@ -3,6 +3,6 @@ Hi!! Im trying to use the vim console and hyper console to create directories. F
 =======
 Hi!! Im trying to use the vim console and hyper console to create directories. Fuck you! 
 
-And It's Toni since another terminal using vim too Hello motherfucker!! :) 
+And It's Toni since another terminal using vim too Hello motherfucker!!:)I love this texting method... It's soooo sexy ;) 
 
 >>>>>>> 1a8376a21c3eafce5ff63d03dc957d8f9068c982
