@@ -11,20 +11,26 @@
 <body>
     <h1>Toni Cannoli</h1>
     <p>This is a testing</p>
-    <p>This is a tilde's testing: <br> "hola, qué tal "</p>
+    <p>This is a tilde's testing: <br> "hola, qué tal"</p>
     <br><p>Would you like to know what is your weight in another planets??</p>
 
     
 <script>
-    //var user = prompt ("Whats your weight?");
-    var weightX =80;
+    // var user = prompt ("Whats your weight?");
+    var finalWeight = parseFloat(user);
     var earthGrav = 9.8;
     var marthGrav = 3.7;
     var jupGrav = 24.8;
-    var finalWeight;
-    finalWeight = weightX * marthGrav / earthGrav; 
-    document.write("Si tu peso en la Tierra es " + weightX + " tu peso en Marte sería "+ finalWeight.toFixed(2))
-    console.log("Si tu peso en la Tierra es " + weightX + " tu peso en Marte sería "+ finalWeight.toFixed(2))
+    var finalWeightMarth;
+    var finalWeightJup;
+
+    finalWeightJup = finalWeight * jupGrav / earthGrav;
+        document.write("If your weight in the Earth is " + finalWeight + " tu peso en Jupiter sería "+ finalWeightJup.toFixed(2))
+        console.log("If your weight in the Earth is  " + finalWeight + " tu peso en Jupiter sería "+ finalWeightJup.toFixed(2))    
+        
+    // finalWeightMarth = finalWeight * marthGrav / earthGrav; 
+    //     document.write("If your weight in the Earth is  " + weightX + " tu peso en Marte sería "+ finalWeightMarth.toFixed(2))
+    //     console.log("If your weight in the Earth is  " + weightX + " tu peso en Marte sería "+ finalWeightMarth.toFixed(2))
 </script>
     
 </body>
