@@ -1,4 +1,4 @@
 # SimpleBlog-Testing
 
-This is a practice of GitFlow syntax
-I love that shit! :)
+This is a GitFlow syntax practice
+
