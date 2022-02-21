@@ -1,4 +1,4 @@
-# SimpleBlog-Testing
+# 💻 SimpleBlog-Testing 
 
 This is a GitFlow syntax practice
 
