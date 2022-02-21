@@ -1,14 +1,16 @@
-function draw() {
+function draw()
+{
   var canvas = document.getElementById('canvas');
-  if (canvas.getContext) {
+  if (canvas.getContext) 
+  {
     var ctx = canvas.getContext('2d');
 
-    roundedRect(ctx, 12, 12, 150, 150, 15);
-    roundedRect(ctx, 19, 19, 150, 150, 9);
+    roundedRect(ctx, 12, 12, 170, 150, 15);
+    roundedRect(ctx, 19, 19, 170, 150, 9);
     roundedRect(ctx, 53, 53, 49, 33, 10);
     roundedRect(ctx, 53, 119, 49, 16, 6);
     roundedRect(ctx, 135, 53, 49, 33, 10);
-    roundedRect(ctx, 135, 119, 25, 49, 10);
+    roundedRect(ctx, 135, 108, 25, 49, 10);
 
     ctx.beginPath();
     ctx.fillStyle="green";
@@ -16,15 +18,18 @@ function draw() {
     ctx.lineTo(31, 37);
     ctx.fill();
 
-    for (var i = 0; i < 8; i++) {
+    for (var i = 0; i < 8; i++) 
+    {
       ctx.fillRect(51 + i * 16, 35, 4, 4);
     }
 
-    for (i = 0; i < 6; i++) {
+    for (i = 0; i < 6; i++) 
+    {
       ctx.fillRect(115, 51 + i * 16, 4, 4);
     }
 
-    for (i = 0; i < 8; i++) {
+    for (i = 0; i < 8; i++) 
+    {
       ctx.fillRect(51 + i * 16, 99, 4, 4);
     }
 
@@ -69,8 +74,10 @@ function draw() {
 
 // A utility function to draw a rectangle with rounded corners.
 
-function roundedRect(ctx, x, y, width, height, radius) {
+function roundedRect(ctx, x, y, width, height, radius) 
+{
   ctx.beginPath();
+  ctx.strokeStyle="violet";
   ctx.moveTo(x, y + radius);
   ctx.arcTo(x, y + height, x + radius, y + height, radius);
   ctx.arcTo(x + width, y + height, x + width, y + height - radius, radius);
